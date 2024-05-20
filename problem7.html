@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>문제 1</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <header>
+        <h1>문제 풀이</h1>
+    </header>
+    <main>
+        <section id="question-section">
+            <h2>문제:</h2>
+            <div class="question-block">
+                <p>1. 0초부터 10초까지 물체의 평균 속력과 평균속도의 크기를 구하시오.</p>
+                <img src="images/average_speed.png" alt="평균 속력과 속도 계산 그림" style="max-width: 100%; height: auto;">
+            
+                <input type="text" id="answer1" placeholder="평균 속력을 입력하세요">
+                <button onclick="checkAnswer('answer1', 'result1', '3.2')">평균 속력 제출</button>
+                <p id="result1"></p>
+                <input type="text" id="answer2" placeholder="평균 속도를 입력하세요">
+                <button onclick="checkAnswer('answer2', 'result2', '1.6')">평균 속도 제출</button>
+                <p id="result2"></p>
+            </div>
+            <a href="problem6.html">다음 문제</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 교육 웹사이트. 모든 권리 보유.</p>
+    </footer>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
