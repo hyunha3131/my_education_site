@@ -16,23 +16,42 @@ header h1 {
     margin: 0;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 1rem;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
 main {
     padding: 2rem;
+}
+
+.question-block {
+    margin-bottom: 2rem;
+}
+
+#question-section {
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 0.5rem;
+    margin: 1rem 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #555;
+}
+
+p[id^="result"] {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 
 footer {
@@ -43,4 +62,16 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+
+a {
+    display: block;
+    margin-top: 1rem;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
 }
