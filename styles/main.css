@@ -16,6 +16,25 @@ header h1 {
     margin: 0;
 }
 
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+header nav ul li a {
+    color: #fff;  /* 링크 색상을 흰색으로 설정 */
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
 main {
     padding: 2rem;
 }
@@ -34,6 +53,8 @@ input[type="text"] {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 80%;
+    max-width: 300px;
 }
 
 button {
@@ -42,6 +63,8 @@ button {
     color: #fff;
     border: none;
     cursor: pointer;
+    display: block;
+    margin: 0 auto;
 }
 
 button:hover {
@@ -59,8 +82,7 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1rem 0;
-    position: absolute;
-    bottom: 0;
+    position: relative;
     width: 100%;
 }
 
@@ -74,4 +96,41 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    main {
+        padding: 1rem;
+    }
+
+    input[type="text"] {
+        width: 90%;
+    }
+
+    button {
+        width: 90%;
+        margin: 1rem auto;
+    }
+
+    footer {
+        position: relative;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    main {
+        padding: 0.5rem;
+    }
+
+    input[type="text"] {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+    }
 }
