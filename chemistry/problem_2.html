@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>화학 문제 2</title>
+    <link rel="stylesheet" href="../styles/main.css">
+</head>
+<body>
+    <header>
+        <h1>화학 문제 2</h1>
+    </header>
+    <main>
+        <section id="question-section">
+            <h2>문제:</h2>
+            <div class="question-block">
+                <p>표는 물질 (가)~(다)의 특징과 이용 사례에 대한 자료이다. A~C는 각각 (가)~(다) 중 하나이고, (가)~(다)는 각각 메테인(CH4), 에탄올(C2H5OH), 아세트산(CH3COOH) 중 하나이다.</p>
+                <img src="../images/problem_2_image.png" alt="물체 A와 B에 작용하는 힘의 그림" style="max-width: 100%; height: auto;">
+                <p>
+                    [정답 제출시 'A,B'와 같이 해당하는 답 사이에 , 사용 후 띄어쓰기 없이 작성 후 제출해주시길 바랍니다.]
+                </p>
+                <p>(가)~(다)에 해당하는 물질을 차례대로 쓰시오. (예 : A,B,C)</p>
+                <input type="text" id="answer" placeholder="정답을 입력하세요">
+                <button onclick="checkAnswer('answer', 'result', 'C,A,B')">제출</button>
+                <p id="result"></p>
+            </div>
+            <a href="problem_3.html">다음 문제</a>
+            <a href="chemistry_ch1.html">이전 문제</a>
+            <a href="../index.html">처음으로 돌아가기</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 교육 웹사이트. 모든 권리 보유.</p>
+    </footer>
+    <script src="../scripts/main.js"></script>
+</body>
+</html>
